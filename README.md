@@ -1,16 +1,35 @@
-# React + Vite
+# Tech Conference Event Registration System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project is a web-based application that allows users to register for the Tech Innovation Conference. The system guides users through several steps including viewing event details, filling out a registration form, reviewing their information, confirming registration, and submitting the form.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Purpose
 
-## React Compiler
+The purpose of this project is to practice modern React development using Vite and React Router. It demonstrates how to build a multi-page application with client-side routing and state management.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+* React
+* Vite
+* React Router
+* JavaScript
+* HTML & CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+* View conference information
+* Register for the event
+* Review entered details before submission
+* Confirm registration
+* Store registration data using Local Storage
+* Display a success page after submission
+
+## How to Run the Project
+
+1. Install dependencies using `npm install`
+2. Start the development server using `npm run dev`
+3. Open the browser and visit the local server link provided by Vite.
+
+This project demonstrates how React components, routing, and state management can be used to build a simple event registration system.
+
