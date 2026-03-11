@@ -1,0 +1,26 @@
+.review-section {
+  background: #f8f9fa;
+  padding: 25px;
+  border-radius: 8px;
+  margin: 25px 0;
+}
+
+.review-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.review-item:last-child {
+  border-bottom: none;
+}
+
+.review-item strong {
+  color: #333;
+}
+
+.review-item span {
+  color: #666;
+  text-align: right;
+}
