@@ -1,0 +1,44 @@
+.status-badge {
+  display: inline-block;
+  background: #4caf50;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.details-section {
+  background: #f8f9fa;
+  padding: 25px;
+  border-radius: 8px;
+  margin: 25px 0;
+}
+
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.detail-item:last-child {
+  border-bottom: none;
+}
+
+.detail-item strong {
+  color: #333;
+}
+
+.detail-item span {
+  color: #666;
+  text-align: right;
+}
+
+.ticket-badge {
+  background: #667eea;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 14px;
+}
