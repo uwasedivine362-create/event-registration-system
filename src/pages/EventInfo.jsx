@@ -1,5 +1,6 @@
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './EventInfo.css';
+import '/pages/.EventInfo.css';
 
 function EventInfo() {
   const navigate = useNavigate();
